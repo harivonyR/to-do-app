@@ -1,0 +1,58 @@
+.flex{
+    display: flex;
+}
+
+.d-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width:800px;
+    width: 400px;
+    margin: auto;
+}
+
+#new-task-input{
+   border: solid 0.5px rgb(153, 153, 153);
+}
+#add-task{
+    padding: 1rem 1.2rem;
+    background-color: darkgrey;
+    color: aliceblue;
+}
+
+.task{
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+
+.task-content{
+    background-color: rgb(196, 195, 195);
+}
+input,button{
+    appearance: none;
+    outline: none;
+    border: none;
+    background: none;
+}
+input{
+    padding: 1rem;
+}
+button{
+    padding: 1rem 1.2rem;
+    background-color: darkgrey;
+    color: aliceblue;
+}
+
+button:hover{
+    background-color: thistle;
+    transition: 0.5s;
+}
+.edit{
+    background-color: rgb(68, 208, 119);
+}
+.delete{
+    background-color: rgb(220, 63, 63);
+}

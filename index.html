@@ -4,20 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Todo List - App</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" differ></script>
 </head>
 <body>
-    <form id="task-form">
-        <!-- new task input -->
-        <div class="new-task">
-            <input 
-                type="text"
-                placeholder="Write new task"
-            >
-            <input type="submit">
-        </div>
-
-    </form>
+    <div class="container">
+        <form id="task-form">
+            <!-- new task input -->
+            <h3>Creat new Task</h3>
+            <div class="new-task">
+                <input
+                    type="text"
+                    placeholder="Write new task"
+                    id="new-task-input" />
+    
+                <input
+                    id="add-task"
+                    type="submit"
+                    value="+ Add task"/>
+    
+            </div>
+            <h3>Task list</h3>
+            <div class="tasks  flex d-column" id="task-list">
+                
+            </div>
+    
+        </form>
+    </div>
+    
     
 </body>
 </html>
