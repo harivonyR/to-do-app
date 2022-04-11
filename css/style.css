@@ -20,6 +20,7 @@
     padding: 1rem 1.2rem;
     background-color: darkgrey;
     color: aliceblue;
+    cursor: pointer;
 }
 
 .task{
@@ -44,6 +45,7 @@ button{
     padding: 1rem 1.2rem;
     background-color: darkgrey;
     color: aliceblue;
+    cursor: pointer;
 }
 
 button:hover{
